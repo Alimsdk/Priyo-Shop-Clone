@@ -155,7 +155,7 @@ font-size: 15px;}
 
 /* main section */
 
-main{
+main,footer{
     background-color:#f6f6f6;
 }
 
@@ -281,7 +281,25 @@ padding-top: 20px;
     color: white;
 }
 
+.top-footer{
+    width: 100%;
+    background-color: #e30047;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+    margin-top: 50px;
+}
 
+.social-links i{
+     margin-left: 15px;
+     color: white;
+}
+
+.social-links a{
+    text-decoration: none;
+}
 
 /*  */
 
@@ -338,11 +356,14 @@ padding-top: 20px;
 
 /* phone */
 
-@media (max-width:768px) {
+@media (max-width:769px) {
     .navbar-product,.end-header{
         display: none;
      }
      
+     .header-logo {
+      margin: auto;
+    }
     
 
      .top-text-right{
