@@ -404,6 +404,7 @@ padding-top: 20px;
     .first-header{
         background-color: #c8003e;
         height: 55px;
+        overflow-y: hidden;
     }
 
 }
