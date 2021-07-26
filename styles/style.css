@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    overflow-X: hidden;
 }
 
 .first-header{
@@ -17,6 +17,7 @@
     width: 980px;
     margin: auto;
     color: white;
+    overflow-y: hidden;
 }
 
 .top-text-left{
@@ -26,6 +27,7 @@
     align-items: center;
     margin-top: 8px;
     width: 55%;
+    overflow-y: hidden;
 }
 
 
@@ -41,7 +43,7 @@
     height: 35px;
     justify-content: space-between;
     align-items: center;
-   
+
 }
 
 .top-text-right a{font-size: 13px;
@@ -222,6 +224,7 @@ padding-top: 20px;
     background-color: white;
     border: 1px solid  rgb(226, 226, 226) ;
     box-shadow: 0 0 1px rgb(172, 172, 172);
+    overflow-y: hidden;
 }
 
 .product-items img{
@@ -393,7 +396,7 @@ padding-top: 20px;
         justify-content: space-between;
         height: 50px;
         align-items: center;
-       
+     
         width: 98vw;
 
     }
